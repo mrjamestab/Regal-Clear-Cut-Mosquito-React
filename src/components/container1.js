@@ -18,16 +18,16 @@ const Container1 = (props) => {
             {props.HeroButton1}
           </button>
           <button className="container1-hero-button11 button">
-            {props.HeroButton11}
+            {props.HeroButton19}
           </button>
           <button className="container1-hero-button12 button">
-            {props.HeroButton12}
+            {props.HeroButton18}
           </button>
           <button className="container1-hero-button13 button">
-            {props.HeroButton13}
+            {props.HeroButton17}
           </button>
           <button className="container1-hero-button14 button">
-            {props.HeroButton14}
+            {props.HeroButton16}
           </button>
         </div>
       </div>
@@ -48,6 +48,10 @@ Container1.defaultProps = {
   HeroButton13: 'Cepsa',
   HeroButton14: 'Cepsa',
   HeroButton15: '+',
+  HeroButton16: 'Walmart',
+  HeroButton17: 'Walmart',
+  HeroButton18: 'Walmart',
+  HeroButton19: 'Walmart',
 }
 
 Container1.propTypes = {
@@ -58,6 +62,10 @@ Container1.propTypes = {
   HeroButton13: PropTypes.string,
   HeroButton14: PropTypes.string,
   HeroButton15: PropTypes.string,
+  HeroButton16: PropTypes.string,
+  HeroButton17: PropTypes.string,
+  HeroButton18: PropTypes.string,
+  HeroButton19: PropTypes.string,
 }
 
 export default Container1

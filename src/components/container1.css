@@ -80,18 +80,15 @@
 .container1-hero-button11 {
   color: var(--dl-color-gray-white);
   width: var(--dl-size-size-large);
-  height: var(--dl-size-size-small);
+  height: auto;
   font-size: 25px;
+  align-self: center;
   text-align: center;
   transition: 0.3s;
   font-weight: bold;
-  padding-top: 1rem;
   border-color: var(--dl-color-primary1-blue100);
   border-width: 0px;
-  padding-left: var(--dl-space-space-halfunit);
   border-radius: 30px;
-  padding-right: var(--dl-space-space-halfunit);
-  padding-bottom: 1rem;
   background-color: var(--dl-color-primary1-blue100);
 }
 .container1-hero-button11:hover {
@@ -102,18 +99,15 @@
 .container1-hero-button12 {
   color: var(--dl-color-gray-white);
   width: var(--dl-size-size-large);
-  height: var(--dl-size-size-small);
+  height: auto;
   font-size: 25px;
+  align-self: center;
   text-align: center;
   transition: 0.3s;
   font-weight: bold;
-  padding-top: 1rem;
   border-color: var(--dl-color-primary1-blue100);
   border-width: 0px;
-  padding-left: var(--dl-space-space-halfunit);
   border-radius: 30px;
-  padding-right: var(--dl-space-space-halfunit);
-  padding-bottom: 1rem;
   background-color: var(--dl-color-primary1-blue100);
 }
 .container1-hero-button12:hover {
@@ -124,18 +118,15 @@
 .container1-hero-button13 {
   color: var(--dl-color-gray-white);
   width: var(--dl-size-size-large);
-  height: var(--dl-size-size-small);
+  height: auto;
   font-size: 25px;
+  align-self: center;
   text-align: center;
   transition: 0.3s;
   font-weight: bold;
-  padding-top: 1rem;
   border-color: var(--dl-color-primary1-blue100);
   border-width: 0px;
-  padding-left: var(--dl-space-space-halfunit);
   border-radius: 30px;
-  padding-right: var(--dl-space-space-halfunit);
-  padding-bottom: 1rem;
   background-color: var(--dl-color-primary1-blue100);
 }
 .container1-hero-button13:hover {
@@ -146,18 +137,15 @@
 .container1-hero-button14 {
   color: var(--dl-color-gray-white);
   width: var(--dl-size-size-large);
-  height: var(--dl-size-size-small);
+  height: auto;
   font-size: 25px;
+  align-self: center;
   text-align: center;
   transition: 0.3s;
   font-weight: bold;
-  padding-top: 1rem;
   border-color: var(--dl-color-primary1-blue100);
   border-width: 0px;
-  padding-left: var(--dl-space-space-halfunit);
   border-radius: 30px;
-  padding-right: var(--dl-space-space-halfunit);
-  padding-bottom: 1rem;
   background-color: var(--dl-color-primary1-blue100);
 }
 .container1-hero-button14:hover {
