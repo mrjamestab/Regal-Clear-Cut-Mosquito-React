@@ -37,6 +37,11 @@
 .app-component-text3 {
   font-size: 25px;
 }
+.app-component-root-class-name {
+  top: 0px;
+  left: 0px;
+  position: 0px;
+}
 @media(max-width: 991px) {
   .app-component-ul {
     margin: 0px;

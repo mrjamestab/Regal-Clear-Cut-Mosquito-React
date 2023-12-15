@@ -6,7 +6,7 @@ import './component.css'
 
 const AppComponent = (props) => {
   return (
-    <ul className="app-component-ul custom-list list">
+    <ul className={`app-component-ul custom-list list ${props.rootClassName} `}>
       <li className="app-component-li list-item">
         <span className="app-component-text">{props.text}</span>
       </li>
@@ -28,6 +28,7 @@ AppComponent.defaultProps = {
   text1: 'walmart',
   text3: 'bluetab\n',
   text2: 'truedat',
+  rootClassName: '',
 }
 
 AppComponent.propTypes = {
@@ -35,6 +36,7 @@ AppComponent.propTypes = {
   text1: PropTypes.string,
   text3: PropTypes.string,
   text2: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default AppComponent

@@ -274,6 +274,7 @@
   height: 250px;
   display: flex;
   padding: var(--dl-space-space-oneandhalfunits);
+  position: relative;
   flex-wrap: wrap;
   align-self: center;
   align-items: center;
@@ -283,18 +284,15 @@
 .home-hero-button1 {
   color: var(--dl-color-gray-white);
   width: var(--dl-size-size-large);
-  height: var(--dl-size-size-small);
+  height: auto;
   font-size: 25px;
+  align-self: center;
   text-align: center;
   transition: 0.3s;
   font-weight: bold;
-  padding-top: 1rem;
   border-color: var(--dl-color-primary1-blue100);
   border-width: 0px;
-  padding-left: var(--dl-space-space-halfunit);
   border-radius: 30px;
-  padding-right: var(--dl-space-space-halfunit);
-  padding-bottom: 1rem;
   background-color: var(--dl-color-primary1-blue100);
 }
 .home-hero-button1:hover {

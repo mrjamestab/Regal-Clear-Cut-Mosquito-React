@@ -84,7 +84,7 @@ const Home = (props) => {
             </div>
           </div>
           <div className="home-container4">
-            <AppComponent></AppComponent>
+            <AppComponent rootClassName="app-component-root-class-name"></AppComponent>
             <ul className="home-ul custom-list list">
               <li className="home-li list-item">
                 <span className="home-text">cepsa</span>
