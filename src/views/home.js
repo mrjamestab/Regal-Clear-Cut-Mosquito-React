@@ -2,7 +2,6 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
-import Container from '../components/container'
 import AppComponent from '../components/component'
 import FeatureCard from '../components/feature-card'
 import './home.css'
@@ -71,8 +70,20 @@ const Home = (props) => {
       </div>
       <div className="home-hero">
         <div className="home-container1">
-          <Container></Container>
-          <section className="home-container2">
+          <div className="home-container2">
+            <h1 className="home-hero-heading heading1">8:00:00,00</h1>
+            <div className="home-btn-group">
+              <button className="home-hero-button1 button">Walmart</button>
+              <button className="home-hero-button11 button">Bluetab</button>
+              <button className="home-hero-button12 button">Truedat</button>
+              <button className="home-hero-button13 button">Cepsa</button>
+              <button className="home-hero-button14 button">Cepsa</button>
+              <div className="home-container3">
+                <button className="home-hero-button15 button">+</button>
+              </div>
+            </div>
+          </div>
+          <div className="home-container4">
             <AppComponent></AppComponent>
             <ul className="home-ul custom-list list">
               <li className="home-li list-item">
@@ -88,14 +99,14 @@ const Home = (props) => {
                 <span className="home-text3">bluetab</span>
               </li>
             </ul>
-          </section>
+          </div>
         </div>
       </div>
       <div className="home-details"></div>
       <div className="home-features">
         <div className="home-features-container">
           <div className="home-features1">
-            <div className="home-container3">
+            <div className="home-container5">
               <FeatureCard
                 Heading="Countdown Timer"
                 SubHeading="Track the remaining time from 8 hours to 0 hours, representing a work day."
