@@ -1,10 +1,11 @@
 .app-component-ul {
-  width: 50%;
+  width: 100%;
+  height: auto;
   margin: 0px;
   position: relative;
   padding-top: var(--dl-space-space-oneandhalfunits);
-  padding-left: var(--dl-space-space-fourunits);
-  padding-right: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   list-style-type: disc;
   background-image: linear-gradient(0deg, rgb(192, 36, 37) 0.00%,rgb(240, 203, 53) 100.00%);
@@ -38,6 +39,11 @@
   font-size: 25px;
 }
 .app-component-root-class-name {
+  top: 0px;
+  left: 0px;
+  position: 0px;
+}
+.app-component-root-class-name1 {
   top: 0px;
   left: 0px;
   position: 0px;

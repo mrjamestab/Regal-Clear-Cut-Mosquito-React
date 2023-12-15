@@ -78,64 +78,26 @@ const Home1 = (props) => {
           </div>
         </header>
       </div>
-      <div className="home1-hero">
-        <section className="home1-container1">
-          <div className="home1-container2">
-            <div className="home1-btn-group">
-              <button className="home1-hero-button1 button">Walmart</button>
-              <button className="home1-hero-button11 button">Bluetab</button>
-              <button className="home1-hero-button12 button">Truedat</button>
-              <button className="home1-hero-button13 button">Cepsa</button>
-              <button className="home1-hero-button14 button">+</button>
-            </div>
-          </div>
-          <div className="home1-container3">
-            <div className="home1-container4"></div>
-          </div>
-        </section>
-      </div>
-      <div className="home1-details"></div>
       <div className="home1-features">
-        <div className="home1-features-container">
-          <div className="home1-features1">
-            <div className="home1-container5">
-              <FeatureCard
-                Heading="Countdown Timer"
-                SubHeading="Track the remaining time from 8 hours to 0 hours, representing a work day."
-              ></FeatureCard>
-              <FeatureCard
-                Heading="Customizable Buttons"
-                SubHeading="Add and customize buttons to represent different tasks throughout the day."
-              ></FeatureCard>
-              <FeatureCard
-                Heading="Task Management"
-                SubHeading="Efficiently manage your tasks using the customizable buttons and track your progress."
-              ></FeatureCard>
-              <FeatureCard
-                Heading="Pomodoro Clock"
-                SubHeading="Utilize the Pomodoro technique by setting time intervals for focused work and breaks."
-              ></FeatureCard>
-            </div>
-          </div>
+        <div className="home1-container1">
+          <FeatureCard
+            Heading="Countdown Timer"
+            SubHeading="Track the remaining time from 8 hours to 0 hours, representing a work day."
+          ></FeatureCard>
+          <FeatureCard
+            Heading="Customizable Buttons"
+            SubHeading="Add and customize buttons to represent different tasks throughout the day."
+          ></FeatureCard>
+          <FeatureCard
+            Heading="Task Management"
+            SubHeading="Efficiently manage your tasks using the customizable buttons and track your progress."
+          ></FeatureCard>
+          <FeatureCard
+            Heading="Pomodoro Clock"
+            SubHeading="Utilize the Pomodoro technique by setting time intervals for focused work and breaks."
+          ></FeatureCard>
         </div>
       </div>
-      <div className="home1-pricing"></div>
-      <div className="home1-gallery"></div>
-      <div className="home1-banner">
-        <div className="home1-banner1">
-          <h1 className="home1-banner-heading heading2">
-            Boost Your Productivity
-          </h1>
-          <span className="home1-banner-sub-heading">
-            Efficiently manage your tasks with our intuitive countdown timer
-          </span>
-          <button className="home1-banner-button button">Learn More</button>
-        </div>
-      </div>
-      <div className="home1-faq">
-        <div className="home1-faq-container"></div>
-      </div>
-      <div className="home1-footer"></div>
     </div>
   )
 }
