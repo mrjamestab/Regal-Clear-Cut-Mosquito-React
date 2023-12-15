@@ -2,6 +2,8 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
+import Container from '../components/container'
+import AppComponent from '../components/component'
 import FeatureCard from '../components/feature-card'
 import './home.css'
 
@@ -69,19 +71,9 @@ const Home = (props) => {
       </div>
       <div className="home-hero">
         <div className="home-container1">
-          <div className="home-container2">
-            <h1 className="home-hero-heading heading1">8:00:00,00</h1>
-            <div className="home-btn-group">
-              <button className="home-hero-button1 button">Walmart</button>
-              <button className="home-hero-button11 button">Bluetab</button>
-              <button className="home-hero-button12 button">Truedat</button>
-              <button className="home-hero-button13 button">Cepsa</button>
-              <div className="home-container3">
-                <button className="home-hero-button14 button">+</button>
-              </div>
-            </div>
-          </div>
-          <section className="home-container4">
+          <Container></Container>
+          <section className="home-container2">
+            <AppComponent></AppComponent>
             <ul className="home-ul custom-list list">
               <li className="home-li list-item">
                 <span className="home-text">cepsa</span>
@@ -96,20 +88,6 @@ const Home = (props) => {
                 <span className="home-text3">bluetab</span>
               </li>
             </ul>
-            <ul className="home-ul1 custom-list list">
-              <li className="home-li4 list-item">
-                <span className="home-text4">cepsa</span>
-              </li>
-              <li className="home-li5 list-item">
-                <span className="home-text5">walmart</span>
-              </li>
-              <li className="home-li6 list-item">
-                <span className="home-text6">truedat</span>
-              </li>
-              <li className="home-li7 list-item">
-                <span className="home-text7">bluetab</span>
-              </li>
-            </ul>
           </section>
         </div>
       </div>
@@ -117,7 +95,7 @@ const Home = (props) => {
       <div className="home-features">
         <div className="home-features-container">
           <div className="home-features1">
-            <div className="home-container5">
+            <div className="home-container3">
               <FeatureCard
                 Heading="Countdown Timer"
                 SubHeading="Track the remaining time from 8 hours to 0 hours, representing a work day."

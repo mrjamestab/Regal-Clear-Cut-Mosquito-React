@@ -1,0 +1,102 @@
+.app-component-ul {
+  width: 50%;
+  margin: 0px;
+  position: relative;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-fourunits);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  list-style-type: disc;
+  background-image: linear-gradient(0deg, rgb(192, 36, 37) 0.00%,rgb(240, 203, 53) 100.00%);
+}
+.app-component-li {
+  font-size: 30px;
+  line-height: 1.5;
+}
+.app-component-text {
+  font-size: 25px;
+}
+.app-component-li1 {
+  font-size: 30px;
+  line-height: 1.5;
+}
+.app-component-text1 {
+  font-size: 25px;
+}
+.app-component-li2 {
+  font-size: 30px;
+  line-height: 1.5;
+}
+.app-component-text2 {
+  font-size: 25px;
+}
+.app-component-li3 {
+  font-size: 30px;
+  line-height: 1.5;
+}
+.app-component-text3 {
+  font-size: 25px;
+}
+@media(max-width: 991px) {
+  .app-component-ul {
+    margin: 0px;
+  }
+  .app-component-li {
+    font-size: 25px;
+  }
+  .app-component-text {
+    font-size: 25px;
+  }
+  .app-component-li1 {
+    font-size: 25px;
+  }
+  .app-component-text1 {
+    font-size: 25px;
+  }
+  .app-component-li2 {
+    font-size: 25px;
+  }
+  .app-component-text2 {
+    font-size: 25px;
+  }
+  .app-component-li3 {
+    font-size: 25px;
+  }
+  .app-component-text3 {
+    font-size: 25px;
+  }
+}
+@media(max-width: 479px) {
+  .app-component-ul {
+    margin: 0px;
+    padding: var(--dl-space-space-unit);
+  }
+  .app-component-li {
+    margin: var(--dl-space-space-halfunit);
+    font-size: 25px;
+  }
+  .app-component-text {
+    font-size: 25px;
+  }
+  .app-component-li1 {
+    margin: var(--dl-space-space-halfunit);
+    font-size: 25px;
+  }
+  .app-component-text1 {
+    font-size: 25px;
+  }
+  .app-component-li2 {
+    margin: var(--dl-space-space-halfunit);
+    font-size: 25px;
+  }
+  .app-component-text2 {
+    font-size: 25px;
+  }
+  .app-component-li3 {
+    margin: var(--dl-space-space-halfunit);
+    font-size: 25px;
+  }
+  .app-component-text3 {
+    font-size: 25px;
+  }
+}
