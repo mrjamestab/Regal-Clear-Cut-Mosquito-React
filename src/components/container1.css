@@ -163,20 +163,17 @@
 }
 .container1-hero-button15 {
   color: var(--dl-color-gray-white);
-  width: var(--dl-size-size-xlarge);
+  width: var(--dl-size-size-large);
   height: var(--dl-size-size-xsmall);
+  padding: var(--dl-space-space-unit);
   font-size: 25px;
   align-self: center;
   text-align: center;
   transition: 0.3s;
   font-weight: bold;
-  padding-top: 1rem;
   border-color: var(--dl-color-primary1-blue100);
   border-width: 0px;
-  padding-left: var(--dl-space-space-halfunit);
   border-radius: 30px;
-  padding-right: var(--dl-space-space-halfunit);
-  padding-bottom: 1rem;
   background-color: var(--dl-color-primary1-blue100);
 }
 .container1-hero-button15:hover {
@@ -202,10 +199,6 @@
     margin: var(--dl-space-space-unit);
     align-items: center;
     justify-content: center;
-  }
-  .container1-hero-button15 {
-    width: var(--dl-size-size-maxwidth);
-    height: var(--dl-size-size-small);
   }
 }
 @media(max-width: 479px) {
@@ -287,10 +280,10 @@
     justify-content: center;
   }
   .container1-hero-button15 {
-    width: 100%;
-    height: var(--dl-size-size-xsmall);
-    padding: var(--dl-space-space-unit);
-    font-size: 30px;
+    width: auto;
+    height: var(--dl-size-size-small);
+    padding: var(--dl-space-space-twounits);
+    font-size: 20px;
     border-radius: 40px;
   }
 }
