@@ -74,6 +74,10 @@
   justify-content: space-between;
 }
 .home-login {
+  color: #0c30ca;
+  align-self: center;
+  font-style: normal;
+  font-weight: 700;
   border-color: var(--dl-color-primary1-blue100);
   border-width: 1px;
   margin-right: var(--dl-space-space-unit);

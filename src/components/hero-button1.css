@@ -1,0 +1,35 @@
+.hero-button1-container {
+  display: flex;
+  position: relative;
+}
+.hero-button1-hero-button1 {
+  color: var(--dl-color-gray-white);
+  width: var(--dl-size-size-large);
+  height: var(--dl-size-size-small);
+  font-size: 25px;
+  text-align: center;
+  transition: 0.3s;
+  font-weight: bold;
+  padding-top: 1rem;
+  border-color: var(--dl-color-primary1-blue100);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: 30px;
+  padding-right: var(--dl-space-space-halfunit);
+  padding-bottom: 1rem;
+  background-color: var(--dl-color-danger-700);
+}
+.hero-button1-hero-button1:hover {
+  color: var(--dl-color-gray-white);
+  border-color: rgba(41, 20, 119, 0.9);
+  background-color: rgba(41, 20, 119, 0.9);
+}
+@media(max-width: 479px) {
+  .hero-button1-hero-button1 {
+    width: auto;
+    height: var(--dl-size-size-small);
+    padding: var(--dl-space-space-twounits);
+    font-size: 20px;
+    border-radius: 40px;
+  }
+}

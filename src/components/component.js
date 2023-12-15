@@ -26,15 +26,15 @@ const AppComponent = (props) => {
 AppComponent.defaultProps = {
   text: 'cepsa',
   text1: 'walmart',
-  text2: 'truedat',
   text3: 'bluetab\n',
+  text2: 'truedat',
 }
 
 AppComponent.propTypes = {
   text: PropTypes.string,
   text1: PropTypes.string,
-  text2: PropTypes.string,
   text3: PropTypes.string,
+  text2: PropTypes.string,
 }
 
 export default AppComponent
