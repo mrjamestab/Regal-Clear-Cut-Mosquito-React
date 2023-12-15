@@ -158,6 +158,7 @@
   width: 100%;
   height: var(--dl-size-size-large);
   display: flex;
+  position: relative;
   align-items: flex-start;
   justify-content: center;
 }
